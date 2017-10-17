@@ -43,7 +43,7 @@ class App extends Component {
 
   render() {
     let center = {
-      lat: 48, lng: 2
+      lat: 48.8566, lng: 2.3522
     };
     if (this.state.selectedFlat) {
       center = { lat: this.state.selectedFlat.lat, lng: this.state.selectedFlat.lng }
